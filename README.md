@@ -128,6 +128,7 @@
 }
 
 ---
+
 Проверки:
 
 Статус 200 OK
@@ -143,6 +144,7 @@ telegram_id совпадает с ожидаемым
 Заголовок: Cookie: aurora_session=...
 
 Ответ: 200 OK
+
 {
   "active": true,
   "display_name": "Тестировщик",
