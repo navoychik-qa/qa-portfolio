@@ -1,0 +1,763 @@
+{
+  "info": {
+    "_postman_id": "10cb6cd6-74e6-4e2b-9c78-41040ce8d63b",
+    "name": "Kabanya Panel API",
+    "description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58637252",
+    "_collection_link": "https://go.postman.co/collection/58637252-10cb6cd6-74e6-4e2b-9c78-41040ce8d63b?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "KABANYA",
+      "item": [
+        {
+          "name": "GET Accept",
+          "item": [
+            {
+              "name": "API profile",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "",
+                    "value": ""
+                  }
+                ],
+                "url": {
+                  "raw": "https://panel.kabanya.ru/api/profile",
+                  "protocol": "https",
+                  "host": [
+                    "panel",
+                    "kabanya",
+                    "ru"
+                  ],
+                  "path": [
+                    "api",
+                    "profile"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "API profile",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Cookie",
+                        "value": "aurora_session=f1b9d1c835d6801ff2d236b39db278f5e2f2f42016c4d5fb46d30efdb184c5b7"
+                      }
+                    ],
+                    "url": {
+                      "raw": "https://panel.kabanya.ru/api/profile",
+                      "protocol": "https",
+                      "host": [
+                        "panel",
+                        "kabanya",
+                        "ru"
+                      ],
+                      "path": [
+                        "api",
+                        "profile"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "server",
+                      "value": "nginx/1.31.6"
+                    },
+                    {
+                      "key": "date",
+                      "value": "Thu, 01 Oct 2026 16:41:46 GMT"
+                    },
+                    {
+                      "key": "content-type",
+                      "value": "application/json; charset=utf-8"
+                    },
+                    {
+                      "key": "transfer-encoding",
+                      "value": "chunked"
+                    },
+                    {
+                      "key": "connection",
+                      "value": "keep-alive"
+                    },
+                    {
+                      "key": "access-control-allow-origin",
+                      "value": "*"
+                    },
+                    {
+                      "key": "x-ratelimit-limit",
+                      "value": "600"
+                    },
+                    {
+                      "key": "permissions-policy",
+                      "value": "geolocation=(), microphone=(), camera=(), payment=()"
+                    },
+                    {
+                      "key": "x-content-type-options",
+                      "value": "nosniff"
+                    },
+                    {
+                      "key": "x-ratelimit-remaining",
+                      "value": "581"
+                    },
+                    {
+                      "key": "content-security-policy",
+                      "value": "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline'; font-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"
+                    },
+                    {
+                      "key": "referrer-policy",
+                      "value": "no-referrer"
+                    },
+                    {
+                      "key": "cross-origin-opener-policy",
+                      "value": "same-origin"
+                    },
+                    {
+                      "key": "x-frame-options",
+                      "value": "DENY"
+                    },
+                    {
+                      "key": "x-permitted-cross-domain-policies",
+                      "value": "none"
+                    },
+                    {
+                      "key": "x-ratelimit-reset",
+                      "value": "1790872936"
+                    },
+                    {
+                      "key": "cache-control",
+                      "value": "no-store, must-revalidate"
+                    },
+                    {
+                      "key": "content-encoding",
+                      "value": "gzip"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n  \"profile\": {\n    \"bio\": \"Ультралорд\",\n    \"display_name\": \"Тестировщик\",\n    \"email\": \"Tester1@aurora.local\",\n    \"job_title\": \"Administrator\",\n    \"notifications\": {\n      \"email\": false,\n      \"mentions\": true,\n      \"project_updates\": true,\n      \"push\": true,\n      \"weekly_digest\": false\n    },\n    \"security\": {\n      \"login_alerts\": true,\n      \"two_factor\": true\n    },\n    \"theme\": \"snow\",\n    \"username\": \"Tester1\"\n  },\n  \"telegram_id\": \"1154256660\",\n  \"two_factor\": true\n}"
+                }
+              ]
+            },
+            {
+              "name": "API me",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Cookie",
+                    "value": "aurora_session=f1b9d1c835d6801ff2d236b39db278f5e2f2f42016c4d5fb46d30efdb184c5b7"
+                  }
+                ],
+                "url": {
+                  "raw": "https://panel.kabanya.ru/api/me",
+                  "protocol": "https",
+                  "host": [
+                    "panel",
+                    "kabanya",
+                    "ru"
+                  ],
+                  "path": [
+                    "api",
+                    "me"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "API me",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Cookie",
+                        "value": "aurora_session=f1b9d1c835d6801ff2d236b39db278f5e2f2f42016c4d5fb46d30efdb184c5b7"
+                      }
+                    ],
+                    "url": {
+                      "raw": "https://panel.kabanya.ru/api/me",
+                      "protocol": "https",
+                      "host": [
+                        "panel",
+                        "kabanya",
+                        "ru"
+                      ],
+                      "path": [
+                        "api",
+                        "me"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "server",
+                      "value": "nginx/1.31.6"
+                    },
+                    {
+                      "key": "date",
+                      "value": "Thu, 01 Oct 2026 16:37:35 GMT"
+                    },
+                    {
+                      "key": "content-type",
+                      "value": "application/json; charset=utf-8"
+                    },
+                    {
+                      "key": "transfer-encoding",
+                      "value": "chunked"
+                    },
+                    {
+                      "key": "connection",
+                      "value": "keep-alive"
+                    },
+                    {
+                      "key": "access-control-allow-origin",
+                      "value": "*"
+                    },
+                    {
+                      "key": "permissions-policy",
+                      "value": "geolocation=(), microphone=(), camera=(), payment=()"
+                    },
+                    {
+                      "key": "cache-control",
+                      "value": "no-store, must-revalidate"
+                    },
+                    {
+                      "key": "cross-origin-opener-policy",
+                      "value": "same-origin"
+                    },
+                    {
+                      "key": "x-permitted-cross-domain-policies",
+                      "value": "none"
+                    },
+                    {
+                      "key": "content-security-policy",
+                      "value": "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline'; font-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"
+                    },
+                    {
+                      "key": "referrer-policy",
+                      "value": "no-referrer"
+                    },
+                    {
+                      "key": "x-content-type-options",
+                      "value": "nosniff"
+                    },
+                    {
+                      "key": "x-ratelimit-remaining",
+                      "value": "585"
+                    },
+                    {
+                      "key": "x-ratelimit-reset",
+                      "value": "1790872684"
+                    },
+                    {
+                      "key": "x-ratelimit-limit",
+                      "value": "600"
+                    },
+                    {
+                      "key": "x-frame-options",
+                      "value": "DENY"
+                    },
+                    {
+                      "key": "content-encoding",
+                      "value": "gzip"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n  \"active\": true,\n  \"display_name\": \"Тестировщик\",\n  \"id\": 4,\n  \"name\": \"Тестировщик\",\n  \"permissions\": {\n    \"admin\": false,\n    \"con_center\": true,\n    \"desk\": true,\n    \"index\": true,\n    \"kbase\": true,\n    \"lal\": true,\n    \"lchat\": true,\n    \"settings\": true,\n    \"stat\": false,\n    \"user\": true\n  },\n  \"role\": \"Administrator\",\n  \"telegram_id\": \"1154256660\",\n  \"two_factor\": true,\n  \"username\": \"Tester1\"\n}"
+                }
+              ]
+            },
+            {
+              "name": "API Banned_bots",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://panel.kabanya.ru/api/banned_bots?Cookie=aurora_session=f1b9d1c835d6801ff2d236b39db278f5e2f2f42016c4d5fb46d30efdb184c5b7",
+                  "protocol": "https",
+                  "host": [
+                    "panel",
+                    "kabanya",
+                    "ru"
+                  ],
+                  "path": [
+                    "api",
+                    "banned_bots"
+                  ],
+                  "query": [
+                    {
+                      "key": "Cookie",
+                      "value": "aurora_session=f1b9d1c835d6801ff2d236b39db278f5e2f2f42016c4d5fb46d30efdb184c5b7"
+                    }
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "API Banned_bots",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "https://panel.kabanya.ru/api/banned_bots?Cookie=aurora_session=f1b9d1c835d6801ff2d236b39db278f5e2f2f42016c4d5fb46d30efdb184c5b7",
+                      "protocol": "https",
+                      "host": [
+                        "panel",
+                        "kabanya",
+                        "ru"
+                      ],
+                      "path": [
+                        "api",
+                        "banned_bots"
+                      ],
+                      "query": [
+                        {
+                          "key": "Cookie",
+                          "value": "aurora_session=f1b9d1c835d6801ff2d236b39db278f5e2f2f42016c4d5fb46d30efdb184c5b7"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "server",
+                      "value": "nginx/1.31.6"
+                    },
+                    {
+                      "key": "date",
+                      "value": "Thu, 01 Oct 2026 16:44:47 GMT"
+                    },
+                    {
+                      "key": "content-type",
+                      "value": "application/json; charset=utf-8"
+                    },
+                    {
+                      "key": "transfer-encoding",
+                      "value": "chunked"
+                    },
+                    {
+                      "key": "connection",
+                      "value": "keep-alive"
+                    },
+                    {
+                      "key": "access-control-allow-origin",
+                      "value": "*"
+                    },
+                    {
+                      "key": "x-ratelimit-reset",
+                      "value": "1790873119"
+                    },
+                    {
+                      "key": "referrer-policy",
+                      "value": "no-referrer"
+                    },
+                    {
+                      "key": "cross-origin-opener-policy",
+                      "value": "same-origin"
+                    },
+                    {
+                      "key": "content-security-policy",
+                      "value": "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline'; font-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"
+                    },
+                    {
+                      "key": "permissions-policy",
+                      "value": "geolocation=(), microphone=(), camera=(), payment=()"
+                    },
+                    {
+                      "key": "x-content-type-options",
+                      "value": "nosniff"
+                    },
+                    {
+                      "key": "x-ratelimit-remaining",
+                      "value": "587"
+                    },
+                    {
+                      "key": "x-ratelimit-limit",
+                      "value": "600"
+                    },
+                    {
+                      "key": "x-frame-options",
+                      "value": "DENY"
+                    },
+                    {
+                      "key": "x-permitted-cross-domain-policies",
+                      "value": "none"
+                    },
+                    {
+                      "key": "cache-control",
+                      "value": "no-store, must-revalidate"
+                    },
+                    {
+                      "key": "content-encoding",
+                      "value": "gzip"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n  \"8139831939\": {\n    \"user_id\": 8139831939,\n    \"username\": \"neirohambot\",\n    \"first_name\": \"Нейрохам\",\n    \"banned_at\": \"2026-09-30 15:59:39\",\n    \"reason\": \"Неавторизованный бот\"\n  }\n}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GET Dis",
+          "item": [
+            {
+              "name": "GET API profile 401 Unauthorized",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://panel.kabanya.ru/api/profile",
+                  "protocol": "https",
+                  "host": [
+                    "panel",
+                    "kabanya",
+                    "ru"
+                  ],
+                  "path": [
+                    "api",
+                    "profile"
+                  ],
+                  "query": [
+                    {
+                      "key": "",
+                      "value": "",
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "GET API profile 401 Unauthorized",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "https://panel.kabanya.ru/api/profile",
+                      "protocol": "https",
+                      "host": [
+                        "panel",
+                        "kabanya",
+                        "ru"
+                      ],
+                      "path": [
+                        "api",
+                        "profile"
+                      ],
+                      "query": [
+                        {
+                          "key": "",
+                          "value": "",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "status": "Unauthorized",
+                  "code": 401,
+                  "_postman_previewlanguage": "text",
+                  "header": [
+                    {
+                      "key": "server",
+                      "value": "nginx/1.31.6"
+                    },
+                    {
+                      "key": "date",
+                      "value": "Thu, 01 Oct 2026 17:03:47 GMT"
+                    },
+                    {
+                      "key": "content-type",
+                      "value": "text/plain; charset=utf-8"
+                    },
+                    {
+                      "key": "content-length",
+                      "value": "0"
+                    },
+                    {
+                      "key": "connection",
+                      "value": "keep-alive"
+                    },
+                    {
+                      "key": "access-control-allow-origin",
+                      "value": "*"
+                    },
+                    {
+                      "key": "x-ratelimit-reset",
+                      "value": "1790874272"
+                    },
+                    {
+                      "key": "cross-origin-opener-policy",
+                      "value": "same-origin"
+                    },
+                    {
+                      "key": "x-frame-options",
+                      "value": "DENY"
+                    },
+                    {
+                      "key": "content-security-policy",
+                      "value": "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline'; font-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"
+                    },
+                    {
+                      "key": "x-ratelimit-limit",
+                      "value": "600"
+                    },
+                    {
+                      "key": "permissions-policy",
+                      "value": "geolocation=(), microphone=(), camera=(), payment=()"
+                    },
+                    {
+                      "key": "x-ratelimit-remaining",
+                      "value": "591"
+                    },
+                    {
+                      "key": "x-content-type-options",
+                      "value": "nosniff"
+                    },
+                    {
+                      "key": "x-permitted-cross-domain-policies",
+                      "value": "none"
+                    },
+                    {
+                      "key": "referrer-policy",
+                      "value": "no-referrer"
+                    },
+                    {
+                      "key": "cache-control",
+                      "value": "no-store, must-revalidate"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": ""
+                }
+              ]
+            },
+            {
+              "name": "incorrect method",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": ""
+                }
+              },
+              "response": [
+                {
+                  "name": "405 Method Not Allowed",
+                  "originalRequest": {
+                    "method": "PUT",
+                    "header": [],
+                    "url": {
+                      "raw": "https://panel.kabanya.ru/api/chat/list?Cookie=aurora_session=f1b9d1c835d6801ff2d236b39db278f5e2f2f42016c4d5fb46d30efdb184c5b7",
+                      "protocol": "https",
+                      "host": [
+                        "panel",
+                        "kabanya",
+                        "ru"
+                      ],
+                      "path": [
+                        "api",
+                        "chat",
+                        "list"
+                      ],
+                      "query": [
+                        {
+                          "key": "Cookie",
+                          "value": "aurora_session=f1b9d1c835d6801ff2d236b39db278f5e2f2f42016c4d5fb46d30efdb184c5b7"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 405,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "server",
+                      "value": "nginx/1.31.6"
+                    },
+                    {
+                      "key": "date",
+                      "value": "Thu, 01 Oct 2026 17:09:17 GMT"
+                    },
+                    {
+                      "key": "content-type",
+                      "value": "application/json; charset=utf-8"
+                    },
+                    {
+                      "key": "content-length",
+                      "value": "48"
+                    },
+                    {
+                      "key": "connection",
+                      "value": "keep-alive"
+                    },
+                    {
+                      "key": "access-control-allow-origin",
+                      "value": "*"
+                    },
+                    {
+                      "key": "referrer-policy",
+                      "value": "no-referrer"
+                    },
+                    {
+                      "key": "content-security-policy",
+                      "value": "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline'; font-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"
+                    },
+                    {
+                      "key": "permissions-policy",
+                      "value": "geolocation=(), microphone=(), camera=(), payment=()"
+                    },
+                    {
+                      "key": "x-content-type-options",
+                      "value": "nosniff"
+                    },
+                    {
+                      "key": "x-frame-options",
+                      "value": "DENY"
+                    },
+                    {
+                      "key": "cross-origin-opener-policy",
+                      "value": "same-origin"
+                    },
+                    {
+                      "key": "x-permitted-cross-domain-policies",
+                      "value": "none"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n  \"reason\": \"method_not_allowed\",\n  \"status\": \"error\"\n}"
+                }
+              ]
+            },
+            {
+              "name": "non‑existent ID",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": ""
+                }
+              },
+              "response": [
+                {
+                  "name": "404 Not Found",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "https://panel.kabanya.ru/api/config/9999999",
+                      "protocol": "https",
+                      "host": [
+                        "panel",
+                        "kabanya",
+                        "ru"
+                      ],
+                      "path": [
+                        "api",
+                        "config",
+                        "9999999"
+                      ]
+                    }
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "server",
+                      "value": "nginx/1.31.6"
+                    },
+                    {
+                      "key": "date",
+                      "value": "Thu, 01 Oct 2026 17:11:55 GMT"
+                    },
+                    {
+                      "key": "content-type",
+                      "value": "application/json; charset=utf-8"
+                    },
+                    {
+                      "key": "transfer-encoding",
+                      "value": "chunked"
+                    },
+                    {
+                      "key": "connection",
+                      "value": "keep-alive"
+                    },
+                    {
+                      "key": "access-control-allow-origin",
+                      "value": "*"
+                    },
+                    {
+                      "key": "referrer-policy",
+                      "value": "no-referrer"
+                    },
+                    {
+                      "key": "cross-origin-opener-policy",
+                      "value": "same-origin"
+                    },
+                    {
+                      "key": "x-permitted-cross-domain-policies",
+                      "value": "none"
+                    },
+                    {
+                      "key": "cache-control",
+                      "value": "no-store, must-revalidate"
+                    },
+                    {
+                      "key": "x-frame-options",
+                      "value": "DENY"
+                    },
+                    {
+                      "key": "x-ratelimit-remaining",
+                      "value": "599"
+                    },
+                    {
+                      "key": "content-security-policy",
+                      "value": "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline'; font-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"
+                    },
+                    {
+                      "key": "x-ratelimit-reset",
+                      "value": "1790874775"
+                    },
+                    {
+                      "key": "x-content-type-options",
+                      "value": "nosniff"
+                    },
+                    {
+                      "key": "permissions-policy",
+                      "value": "geolocation=(), microphone=(), camera=(), payment=()"
+                    },
+                    {
+                      "key": "x-ratelimit-limit",
+                      "value": "600"
+                    },
+                    {
+                      "key": "content-encoding",
+                      "value": "gzip"
+                    }
+                  ],
+                  "cookie": [],
+                  "body": "{\n  \"reason\": \"unknown_endpoint\",\n  \"status\": \"error\"\n}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
