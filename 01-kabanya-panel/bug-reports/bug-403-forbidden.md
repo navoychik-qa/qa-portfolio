@@ -8,7 +8,7 @@
 | **Severity** | Critical |
 | **Priority** | ASAP |
 | **Статус** | ✅ Исправлен, верифицирован |
-| **Окружение** | Chrome 120, Windows 10, роль Administrator |
+| **Окружение** | Opera browser, Windows 10, роль Administrator |
 
 ---
 
