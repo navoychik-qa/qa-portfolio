@@ -60,5 +60,6 @@
 ---
 
 ## Вложения
-<img width="381" height="387" alt="image" src="https://github.com/user-attachments/assets/7aed3f92-d804-4c95-b5a4-59e9ba5d68be" />
+<img width="309" height="100" alt="image" src="https://github.com/user-attachments/assets/efc16067-9a1f-43eb-90a8-d00299c7a5b6" />
+
 
