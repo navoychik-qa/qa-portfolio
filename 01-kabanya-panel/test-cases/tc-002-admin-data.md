@@ -1,4 +1,4 @@
-<img width="760" height="817" alt="image" src="https://github.com/user-attachments/assets/41b3e3b3-ba36-4ddf-846e-3126f8a09b7b" /># TC-002: Проверка загрузки административных данных на странице «Главное»
+# TC-002: Проверка загрузки административных данных на странице «Главное»
 
 ## 📋 Основная информация
 
@@ -61,6 +61,7 @@
 ---
 
 ## 📎 Вложения
+<img width="751" height="817" alt="image" src="https://github.com/user-attachments/assets/6875459a-19dd-41c8-a479-596985e0d568" />
 <img width="760" height="817" alt="image" src="https://github.com/user-attachments/assets/c1d9d1b2-df56-461d-9192-6eba9f05b3c9" />
 <img width="829" height="658" alt="image" src="https://github.com/user-attachments/assets/875bafe5-8195-41b0-b196-8b93da7012bf" />
 <img width="827" height="479" alt="image" src="https://github.com/user-attachments/assets/c15dab19-e2d3-42b2-80bd-db49eebc3191" />
