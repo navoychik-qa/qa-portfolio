@@ -56,3 +56,9 @@
 | ID | Название | Severity | Статус |
 |----|----------|----------|--------|
 | [BUG-002](../bug-reports/bug-bot-mentions.md) | Фильтр упоминаний ботов пропускает слитные упоминания | Major | ✅ Исправлен |
+
+---
+
+## Вложения
+<img width="381" height="387" alt="image" src="https://github.com/user-attachments/assets/7aed3f92-d804-4c95-b5a4-59e9ba5d68be" />
+
