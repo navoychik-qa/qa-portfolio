@@ -125,7 +125,7 @@ DevTools, API, Jira. Имею практический опыт тестиров
 
 - **Email:** hank1414@mail.ru
 - **Telegram:** @TommyRailey
-- **GitHub:** [твой-username](https://github.com/navoychik-qa)
+- **GitHub:** https://github.com/navoychik-qa/qa-portfolio
 
 ---
 
