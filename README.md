@@ -92,7 +92,6 @@ DevTools, API, Jira. Имею практический опыт тестиров
 - [Коллекция Postman](./02-api-testing/kabanya-panel-api.postman_collection.json)
 - [Баг-репорт](./02-api-testing/bug-reports/bug-403-api.md)
 - [Тест-кейсы (3)](./02-api-testing/test-cases/)
-- [Скриншоты](./02-api-testing/screenshots/)
 
 ---
 
